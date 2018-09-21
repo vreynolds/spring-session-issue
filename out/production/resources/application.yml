@@ -1,0 +1,10 @@
+security:
+  oauth2:
+    client:
+      clientId: 109150770815-1oha4b8qpu27h6mduv1rlh8ecr1ehh45.apps.googleusercontent.com
+      clientSecret: RWm1LvQdkWL6OQC7IRKTZ32-
+      accessTokenUri: https://www.googleapis.com/oauth2/v3/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
+      scope: openid profile email
+    resource:
+      userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo

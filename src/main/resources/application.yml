@@ -1,0 +1,10 @@
+security:
+  oauth2:
+    client:
+      clientId: [REDACTED]
+      clientSecret: [REDACTED]
+      accessTokenUri: https://www.googleapis.com/oauth2/v3/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
+      scope: openid profile email
+    resource:
+      userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
